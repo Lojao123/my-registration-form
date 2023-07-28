@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta charset="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="container">
+       <div class="col-md-12">
+        <div class="panel panel-primary">
+       <div class="panel heading text-center">
+        <div class="panel-heading">
+          <h2>Registration Form</h2>
+     
+      <form action="./inc/register.inc.php" method="post">
+    <div class="panel-body">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+           <input type="text" class="form-control form-control-lg" id="firstName" name="rfname"/>
+         </div>
+           <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="lastName" class="form-control form-control-lg" id="lastName" name="rlname"/>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email"  placeholder="Enter email" name="remail">
+         <div class="form-group">
+         </div>
+         <div>
+        <label for="email">Gender:</label>
+      
+        <label for="male" class="radio-inline"><input type="radio" name="gender" id="male" value="male">male</label>
+        <label for="female" class="radio-inline"><input type="radio" name="gender" id="female" value="fmale">female</label>
+        <label for="others" class="radio-inline"><input type="radio" name="gender" id="others">others</label>
+      </div>
+
+
+       <div class="form-group">
+        <label for="email">Password:</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter password" name="rpass">
+         <div class="form-group">
+        <label for="number">Phone Number:</label>
+        <input type="text" class="form-control" id="number" name="ruphone">
+      </div>
+        <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+        <button type="submit" class="btn btn-primary" name="register">Submit</button>
+         <div class="panel-footern text-right">
+         <a href="login">Login</a>
+      <small>&copy; Lojao Joseph Lochomee</small>
+    </div>
+  </form>
+</div>
+</body>
+</html>
